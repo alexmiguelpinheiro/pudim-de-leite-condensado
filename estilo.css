@@ -1,0 +1,167 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   }
+body{
+      background:#F0FFF0;
+      font-family: arial;
+	  margin-top:5px;
+	} 
+/*Inicio do cabecalho --header */
+#header{
+       width: 1900px;
+	   height: 140px;
+	   margin: 0px auto;
+	   background:#E08702;
+	     }	
+#header h1{
+	       display: block; /*bloqueia linha*/
+		  float:left;
+		  	   }
+#nav{ 
+		  list-style:none; /*retira marcadores*/
+		  padding-left: 0px;
+		  display: block;
+		  float: left;
+		  margin-left: 400px;	/*altera o banner do menu*/
+		  margin-top:60px;	  
+	     }
+/*vai deixar os coiso em linha reta*/
+#nav li {
+	      float:left;
+		  margin-left: 100px;/*distância entre os menu*/
+		  }	
+/*tira sublinhado*/
+#nav a {
+	      text-decoration: none;
+		  text-transform: uppercase;
+		  padding-top: 8px;
+		  color:#000000;
+		  font-weight: bold;
+		  }	
+#nav a:hover{
+		 	  border-bottom: 5px solid #FF0000;
+		  }	 
+ul#nav a.ativa{
+		     border-bottom: 5px solid #FF0000;
+		  }
+/*fim do cabecalho--header */
+#banner{
+		 margin-top:15px;
+		 width: 800px;
+		 height: 247px;
+		 margin: 0px auto;
+		 position: relative;
+	   } 
+ #section{
+		   width:800px;
+		   height:150px;
+		   background:#F0FFF0;
+		   margin:15px auto; /* sem pixel pode ser % ou Em todos */
+		   } 	
+.article{
+		   width:250px;
+		   float:left;
+		   margin:5px 8px;
+		   } 	
+.article h1{
+		         font-size: 22px;
+			 font-weight: bold;
+			 text-transform:uppercase;
+			 text-align:center;
+		   } 		
+.article p{
+		   padding-top:px;
+		   font-size: 12px;
+		   text-align:justify;
+		   }		   
+ #footer{
+	   width: 1900px;
+	   height: 45px;
+	   background:#FFF5E6;
+	   float:left;
+	   margin:0 auto;
+	   padding-top:30px;
+	   margin-left:10px;
+	   }
+#footer p{
+	   font-size: 12px;
+	   text-align: center;
+	  }
+/*Codificacao da pagina Clinica*/			 
+ #conteudo{
+	   width:1895px;
+	   height:658px;
+	   background:#FFE0B5;
+	   margin:15px auto; 
+	   padding-left:5px;
+	   }	
+.artigo{
+		   width:1800px;
+		   margin:5px 8px;
+		   float:left;
+		   }	  	
+.artigo p{
+		   padding-top:15px; 
+		   font-size: 20px;
+		   text-align:justify;
+		   }
+#conteudo2{
+	   width:1895px;
+	   height:730px;
+	   background:#FFE0B5;
+	   margin:15px auto; 
+	   padding-left:5px;
+	   }	
+.artigo{
+		   width:1800px;
+		   margin:5px 8px;
+		   float:left;
+		   }	  	
+.artigo p{
+		   padding-top:15px; 
+		   font-size: 20px;
+		   text-align:justify;
+		   }
+#conteudo3{
+	   width:1895px;
+	   height:1200px;
+	   background:#FFE0B5;
+	   margin:15px auto; 
+	   padding-left:5px;
+	   }	
+.artigo{
+		   width:1800px;
+		   margin:5px 8px;
+		   float:left;
+		   }	  	
+.artigo p{
+		   padding-top:15px; 
+		   font-size: 20px;
+		   text-align:justify;
+		   }
+/* FIM Codificacao da pagina Clinica*/	
+/*Codificacão da pagina servico*/		
+#conteudo1{
+	   width:800px;
+	   height:400px;
+	   background:#F0FFF0;
+	   margin:15px auto; 
+	   padding-left:5px;
+	   } 
+.artigo1{
+		   width:350px;
+		   margin:5px 8px;
+		   float:left;
+		   }	
+.artigo1  h1{
+	        font-weight:bold;
+		    margin-bottom:5px;
+		  	   }	
+.artigo1 ul{
+		   padding-top:15px;
+		   font-size: 17px;
+		   list-style:none; /*retira marcadores*/
+	       padding-left: 0px;
+		   }					   
+  		   
